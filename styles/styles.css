@@ -1,0 +1,22 @@
+div {
+	margin: 10px;
+	padding: 10px;
+}
+
+div span {
+	width: auto;
+	height: 50px;
+	position: relative;
+	z-index: 1;
+}
+
+div span:before {
+	content: "";
+	position: absolute;
+	left: 25%;
+	top: 0;
+	height: 1px;
+	width: 50%;
+	border-bottom: 4px solid #080;
+	margin-top: 1.25em;
+}
